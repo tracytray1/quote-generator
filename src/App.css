@@ -1,19 +1,20 @@
 #root {
-  max-width: 1280px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
-* {
-  font-family: Arial;
-}
 
 .quote-title {
+  color: black;
   font-size: 4em;
-}
+  margin-bottom: 0px;
+  font-weight: 400;
+  }
 
 .quote-subtitle {
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: rgb(156, 156, 156);
+  font-weight: 400;
 }

@@ -4,9 +4,9 @@ const Quotes = ( { quote } ) => {
   return (
     (!quote)
       ? <div>Loading...</div>
-      : <div>
-          <p>{quote.quote}</p>
-          <p>— {quote.author}</p>
+      : <div className="quote-container">
+          <p className="quote-text">"{quote.quote}"</p>
+          <p className="quote-author">— {quote.author}</p>
         </div>
   )
 }
