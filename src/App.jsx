@@ -1,17 +1,28 @@
 import { useEffect, useState } from 'react'
-import Quote from "./components/Quote/Quote";
+
+import Quotes from "./components/Quotes/Quotes";
+import Button from "./components/Button/Button";
+
 import './App.css'
 
 function App() {
 
-  const [quotes, setQuotes] = useState([])
-
+  const [quote, setQuote] = useState([]);
+  const [randomQuote, setRandomQuote] = useState([]);
 
   useEffect(() => {
     fetch('https://dummyjson.com/quotes')
       .then((response) => response.json())
-      .then((data) => setQuotes(data.quotes))
+      .then((data) => setQuote(data.quotes))
       }, []);
+
+
+  const handleQuote = () => {
+    let i = Math.floor(Math.random() * quote.length);
+    let shuffleQuote = quote[i];
+    setRandomQuote(shuffleQuote);
+    console.log(randomQuote);
+  }
 
   return (
     <>
@@ -20,7 +31,8 @@ function App() {
       <h2 className="quote-subtitle">Discover powerful quotes to fuel your motivation
         and inspire your journey <br />to greatness.</h2>
     </div>
-    <Quote quotes={quotes} />
+    <Quotes quote={randomQuote} handleQuote={handleQuote} />
+    <Button handleQuote={handleQuote}/>
   </>
   )
 }
