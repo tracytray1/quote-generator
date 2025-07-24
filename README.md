@@ -57,34 +57,34 @@ css
 
 bash
 
-CopierModifier
-
+```
 `git clone https://github.com/your-username/quote-generator.git
 cd quote-generator`
+```
 
 1.  **Install dependencies**
 
 bash
 
-CopierModifier
-
-`npm install`
+```
+npm install
+```
 
 1.  **Run the development server**
 
 bash
 
-CopierModifier
-
-`npm run dev`
+```
+npm run dev
+```
 
 1.  **Build for production**
 
 bash
 
-CopierModifier
-
-`npm run build`
+```
+npm run build
+```
 
 🧪 Available Scripts
 --------------------
