@@ -86,16 +86,6 @@ bash
 npm run build
 ```
 
-🧪 Available Scripts
---------------------
-
--   `npm run dev` -- Start development server
-
--   `npm run build` -- Create production-ready build
-
--   `npm run preview` -- Preview production build locally
-
--   `npm run lint` -- Run linter
 
 📦 Dependencies
 ---------------
