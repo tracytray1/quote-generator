@@ -1,7 +1,7 @@
 Quote Generator
 ===============
 
-A simple and elegant React application that displays random inspirational quotes. Built with Vite, React, and Font Awesome icons, this project fetches quotes from an external API and lets users cycle through them with the click of a button.
+A simple React application that displays random inspirational quotes. Built with Vite, React, and Font Awesome icons, this project fetches quotes from an external API and lets users cycle through them with the click of a button.
 
 ✨ Features
 ----------
