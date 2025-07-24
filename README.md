@@ -16,12 +16,6 @@ A simple and elegant React application that displays random inspirational quotes
 
 -   Font Awesome icons for enhanced user experience
 
-🚀 Demo
--------
-
-<!-- Optional: add a screenshot if you have one -->
-
-Try it live (if hosted): [Live Demo](#) <!-- Replace with actual link if deployed -->
 
 🧱 Built With
 -------------
@@ -39,8 +33,7 @@ Try it live (if hosted): [Live Demo](#) <!-- Replace with actual link if deploye
 
 css
 
-CopierModifier
-
+```
 `quote-generator/
 ├── public/
 ├── src/
@@ -56,7 +49,7 @@ CopierModifier
 ├── package.json
 ├── vite.config.js
 └── README.md`
-
+```
 ⚙️ Installation
 ---------------
 
